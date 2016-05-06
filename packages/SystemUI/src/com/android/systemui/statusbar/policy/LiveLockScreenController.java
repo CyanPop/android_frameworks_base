@@ -99,6 +99,7 @@ public class LiveLockScreenController {
         } else {
             if (isShowingLiveLockScreenView()) {
                 mPanelView.removeView(mLiveLockScreenView);
+                mLlsHasFocus = false;
             }
         }
     }
